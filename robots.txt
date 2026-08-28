@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# After connecting your custom domain, add:
+# Sitemap: https://YOURDOMAIN.com/sitemap.xml
