@@ -16,9 +16,7 @@
 
 var FORMS = {
   sunrise:   "https://forms.gle/6ibkn6nR7TdrWpSA8",
-  breakfast: "https://docs.google.com/forms/d/e/1FAIpQLSdyrs2nmHEXKNV_whywmIPUmfvpcefGJrJOEwTS3G4P-INUJA/viewform",
-  night:     "https://forms.gle/LYfDtKhBSzsRjcie7",
-  nature:    "https://docs.google.com/forms/d/e/1FAIpQLScrNas69BuW5vIvD2SqJmj4InAKFTUdmApREBa1hkbZcIrRKg/viewform"
+  night:     "https://forms.gle/LYfDtKhBSzsRjcie7"
 };
 
 var CONTACT_EMAIL = "hello@example.com"; // TODO: Atalia's real email
