@@ -22,6 +22,8 @@
   --night-tint:     #d2d9ec;
   --nature:         #c2632e;
   --nature-tint:    #e9dabf;
+  --discovery:      #1a5f7a;
+  --discovery-tint: #d4e8f0;
 
   --radius:  18px;
   --shadow:  0 10px 30px rgba(70, 45, 30, 0.12);
@@ -286,11 +288,13 @@ section.tint { background: var(--cream-deep); }
 .tour.breakfast .tour-head { background: var(--breakfast); }
 .tour.night     .tour-head { background: var(--night); }
 .tour.nature    .tour-head { background: var(--nature); }
+.tour.discovery .tour-head { background: var(--discovery); }
 
 .tour.sunrise   .accentbox { background: var(--sunrise-tint); }
 .tour.breakfast .accentbox { background: var(--breakfast-tint); }
 .tour.night     .accentbox { background: var(--night-tint); }
 .tour.nature    .accentbox { background: var(--nature-tint); }
+.tour.discovery .accentbox { background: var(--discovery-tint); }
 
 .accentbox {
   border-radius: 14px;
