@@ -1,0 +1,51 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="95" fill="white" stroke="#1a3a52" stroke-width="6"/>
+  
+  <!-- Red running character -->
+  <g transform="translate(100, 85)">
+    <!-- Head -->
+    <circle cx="0" cy="-20" r="12" fill="#ef4444"/>
+    
+    <!-- Cap -->
+    <ellipse cx="0" cy="-22" rx="14" ry="8" fill="none" stroke="#f5f5f5" stroke-width="2"/>
+    <path d="M -14 -22 Q -16 -25 -10 -28 L 10 -28 Q 16 -25 14 -22" fill="#f5f5f5"/>
+    
+    <!-- Eyes (happy expression) -->
+    <circle cx="-4" cy="-22" r="2" fill="#1a3a52"/>
+    <circle cx="4" cy="-22" r="2" fill="#1a3a52"/>
+    
+    <!-- Smile -->
+    <path d="M -4 -18 Q 0 -16 4 -18" stroke="#1a3a52" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    
+    <!-- Body -->
+    <ellipse cx="0" cy="-5" rx="9" ry="14" fill="#ef4444"/>
+    
+    <!-- Arms -->
+    <path d="M -8 -8 L -16 -2" stroke="#ef4444" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M 8 -8 L 14 2" stroke="#ef4444" stroke-width="5" stroke-linecap="round" fill="none"/>
+    
+    <!-- Legs in running pose -->
+    <path d="M -3 8 L -5 22" stroke="#f5f5f5" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M 3 8 L 6 18" stroke="#f5f5f5" stroke-width="4" stroke-linecap="round" fill="none"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="-5" cy="24" rx="3" ry="2" fill="#9ca3af"/>
+    <ellipse cx="6" cy="20" rx="3" ry="2" fill="#9ca3af"/>
+    
+    <!-- Speed lines -->
+    <line x1="-20" y1="-8" x2="-26" y2="-8" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-18" y1="-13" x2="-24" y2="-16" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Text around the circle -->
+  <defs>
+    <path id="circlePath" d="M 30, 100 A 70, 70 0 0, 1 170, 100" fill="none"/>
+  </defs>
+  
+  <text font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a3a52" letter-spacing="2">
+    <textPath href="#circlePath" startOffset="50%" text-anchor="middle">
+      I RUN THE RED DOT
+    </textPath>
+  </text>
+</svg>
