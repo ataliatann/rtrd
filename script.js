@@ -16,7 +16,8 @@
 
 var FORMS = {
   sunrise:   "https://forms.gle/6ibkn6nR7TdrWpSA8",
-  night:     "https://forms.gle/LYfDtKhBSzsRjcie7"
+  night:     "https://forms.gle/LYfDtKhBSzsRjcie7",
+  discovery: "https://forms.gle/QtrjJME1SueDwis68"
 };
 
 var CONTACT_EMAIL = "hello@example.com"; // TODO: Atalia's real email
