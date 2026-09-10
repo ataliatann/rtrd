@@ -29,20 +29,15 @@ Each run has its own Google Form. Open `script.js` and you will see:
 
 ```js
 var FORMS = {
-  sunrise:   "https://forms.gle/...",
-  breakfast: "https://docs.google.com/forms/d/e/.../viewform",
-  night:     "https://forms.gle/...",
-  nature:    "https://docs.google.com/forms/d/e/.../viewform"
+  sunrise:   "https://forms.gle/6ibkn6nR7TdrWpSA8",
+  night:     "https://forms.gle/LYfDtKhBSzsRjcie7",
+  discovery: "https://forms.gle/QtrjJME1SueDwis68"
 };
 ```
 
-Paste each run's form link next to its name. That is the only place any form
-link lives. Every "Register for this run" button on a tour, plus the four
-buttons in the Register section, read from this list.
+These links are already filled in. If you need to update any of them, paste the new Google Form link next to its run name. That is the only place any form link lives. Every "Register for this run" button on a tour, plus the three buttons in the Register section, read from this list.
 
-The plain "Book a run" and "Register" buttons in the header, menu, hero and
-footer do not open a form. They scroll down to the Register section so the
-person can pick which run they want first. Nothing to configure there.
+The plain "Book a run" and "Register" buttons in the header, menu, hero and footer do not open a form. They scroll down to the Register section so the person can pick which run they want first. Nothing to configure there.
 
 ### 2. The contact email
 
@@ -63,7 +58,6 @@ Search the file for `S$35` and change each one if a price changes.
 
 Search `index.html` for `TODO`. These are answers only Atalia can give:
 
-- Whether breakfast is included in the Breakfast Run price
 - What to bring
 - How to pay, and the refund / cancellation policy
 - Private group bookings
