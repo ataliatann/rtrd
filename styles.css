@@ -132,6 +132,21 @@ section.tint { background: var(--cream-deep); }
   font-size: 1.15rem;
   color: var(--ink);
   text-decoration: none;
+  line-height: 1;
+}
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 260px;
+  overflow: hidden;
+}
+.brand-logo img {
+  display: block;
+  width: auto;
+  max-width: 220px;
+  max-height: 52px;
+  object-fit: contain;
 }
 .brand .dot {
   width: 18px; height: 18px;
@@ -468,4 +483,5 @@ footer .fine { font-size: 0.85rem; color: #b9a894; margin-top: 18px; }
   .mobile-cta { display: block; }
   body { padding-bottom: 68px; }
   .hero .wrap { padding-top: 80px; padding-bottom: 80px; }
+  .brand-logo img { max-height: 42px; max-width: 170px; }
 }
