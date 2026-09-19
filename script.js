@@ -20,7 +20,7 @@ var FORMS = {
   discovery: "https://forms.gle/QtrjJME1SueDwis68"
 };
 
-var CONTACT_EMAIL = "hello@example.com"; // TODO: Atalia's real email
+var CONTACT_EMAIL = "ataliatan@gmail.com"; // 
 
 /* ------------------------------------------------------------
    Below here you should not need to touch anything.
